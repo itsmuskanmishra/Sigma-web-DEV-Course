@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS object Fit and position</title> 
+    <style>
+        .container{
+            height: 488px;
+            width: 466px;
+            border: 2px solid black;
+            /* background-color: azure; */
+            background-position: center center;
+            background-clip: border-box;
+            background-image:url("https://tse4.mm.bing.net/th?id=OIP.XtlXmrujgxcWTyVw8iThMgHaE7&pid=Api&P=0&h=180") ;
+            background-repeat: no-repeat;
+        }
+        img{
+            width: 466px;
+            height: 488px;
+            /* object-fit: cover; */
+            object-fit: fill;
+            object-position: 10px 20px;
+            /* object-position: top right; */
+            /* object-fit: contain; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <img src="https://tse4.mm.bing.net/th?id=OIP.XtlXmrujgxcWTyVw8iThMgHaE7&pid=Api&P=0&h=180" alt=""> -->
+
+    </div>
+    
+</body>
+</html>
